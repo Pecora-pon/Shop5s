@@ -527,8 +527,8 @@
                         </div>
                         <div class="mb-3 col-md-6">
                             <label class="form-label">Tên Đăng Nhập</label>
-                            <form:input class="form-control" path="tenDangNhap" value="${kh.tenDangNhap}"/>
-                            <form:errors path="tenDangNhap"/>
+                            <form:input class="form-control" path="username" value="${kh.username}"/>
+                            <form:errors path="username"/>
                         </div>
                         <div class="mb-3 col-md-6">
                             <label class="form-label">Email</label>
@@ -537,8 +537,8 @@
                         </div>
                         <div class="mb-3 col-md-6">
                             <label class="form-label">Mật Khẩu</label>
-                            <form:input class="form-control" path="matKhau" value="${kh.matKhau}"/>
-                            <form:errors path="matKhau"/>
+                            <form:input class="form-control" path="password" value="${kh.password}"/>
+                            <form:errors path="password"/>
                         </div>
                         <div class="mb-3 col-md-6">
                             <label class="form-label">Họ Tên</label>
